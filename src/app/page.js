@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Dashboard from '@/components/Dashboard';
 
 export default function HomePage() {
 	return (
@@ -10,6 +11,8 @@ export default function HomePage() {
 			<br />
 
 			<Link href="/landing">Przejdź do strony Landing</Link>
+
+			<Dashboard />
 		</main>
 	);
 }
