@@ -1,4 +1,3 @@
-import "./globals.css";
 import ContextCounterDisplay from '@/components/ContextCounterDisplay';
 import ContextCounterButton from '@/components/ContextCounterButton';
 import Card from "@/components/Card";

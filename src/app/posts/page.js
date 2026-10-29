@@ -8,6 +8,7 @@ async function getPosts() {
 
 export default async function PostsPage() {
 	const posts = await getPosts();
+	await new Promise((resolve) => setTimeout(resolve, 2));
 
 	return (
 		<main style={{ padding: '2rem' }}>
