@@ -1,5 +1,7 @@
+import "./globals.css";
 import ContextCounterDisplay from '@/components/ContextCounterDisplay';
 import ContextCounterButton from '@/components/ContextCounterButton';
+import Card from "@/components/Card";
 
 export default function HomePage() {
 	return (
@@ -29,6 +31,13 @@ export default function HomePage() {
 				Kliknij przycisk w zielonej ramce (ContextCounterButton) — wartość w niebieskiej ramce
 				(ContextCounterDisplay) zmieni się automatycznie, mimo że to dwa różne komponenty.
 			</p>
+
+			<span className="highlight">Ważna informacja</span>
+
+			<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+				<Card title="Punkt 1">Treść 1</Card>
+				<Card title="Punkt 2">Treść 2</Card>
+			</div>
 		</main>
 	);
 }
